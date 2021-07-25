@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Glow">
+      <UniqueIdentifier>{a1f6bae9-14f0-4008-90b1-11f3a0d576d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Glow">
+      <UniqueIdentifier>{2d583475-3df5-42f7-8227-3b2c84c7eb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Aimbot">
+      <UniqueIdentifier>{71b00370-07a5-47ce-97df-48939c6a7f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Aimbot">
+      <UniqueIdentifier>{ba9d56c3-35b6-4286-a717-1c68e2585935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainLoader">
+      <UniqueIdentifier>{e92bc003-55ea-4440-a7d6-174f8e306d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{9ff41954-202b-4c82-a552-940953d32680}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\MainLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\MainLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Source Files\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="Injector.cpp">
+      <Filter>Source Files\MainLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Glow.h">
+      <Filter>Header Files\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Header Files\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mem.cpp">
+      <Filter>Header Files\SDK</Filter>
+    </None>
+    <None Include="Windows.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
